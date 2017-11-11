@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>newContact</title>
+</head>
+<body onload="start()">
+<div class="card-panel">
+      <span class="red-text text-darken-2">
+<div class="row">
+
+
+
+    <div class="col s6">
+        <div style="float: right;"><a href="./new.html">upload image</a>
+<img src="./images.png" height="42" width="42"></div>
+<h1>Add New Contact</h1>
+        <form action="/submit" method="post">
+    NAME<input type="text" name="user[name]" >
+
+   MOBILE NO <input type="text" name="user[MOBILE]">
+    Address <input type="text" id="address">
+            <input type="submit" value="Submit">
+</form>
+
+    <!--<button ONCLICK="addContactAJAX();">Add Contact</button>-->
+
+    <script src="/script.js" type="text/javascript"></script>
+
+    </div></div></span></div>
+</body>
+</html>

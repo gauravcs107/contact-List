@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+
+#myContacts{
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    bg-color:yellow;
+    border-color: blue;
+    border: solid;
+}
+
+.contact{
+    border-bottom: dotted;
+    border-color: darkmagenta;
+    border-radius: 25px;
+    padding: 20px;
+    border: solid;
+}
